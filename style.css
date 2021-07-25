@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 0.9%;
+  padding-bottom: 5%;
+  background-color: #dcdcdc;
+  border: 2px solid rgb(37, 37, 37);
+  border-radius: 7px;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  display: inline-block;
+  border-bottom: 1px solid #eef2f2;
+}
+
+
+.main-nav {
+  position: relative;
+  float: right;
+}
+
+.main-menu {
+  list-style: none;
+  font-size: .9375rem;
+  font-weight: 400;
+  line-height: 2em;
+  padding: 1.33em 0;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+.main-menu .is-current, .main-menu .is-current a {
+  color: #363434;
+  font-weight: bolder;
+}
+
+.main-menu a {
+  color: #ababab;
+  display: block;
+  text-decoration: none;
+  padding: 0 .6em;
+}
+
+.dropdown {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  padding-top: 10px;
+  position: absolute;
+  min-width: 220px;
+  margin-left: -100px;
+  background: #fff;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  z-index: 1;
+}
+
+dl, menu, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+
+.logo,
+.logo-2 {
+  cursor: pointer;
+
+}
+
+.logo {
+  padding-left: 4%;
+  transform: translateY(30px);
+  transform: translateX(50px);
+  animation: sliding 1s ease-in 1s forwards;
+
+}
+
+.logo-2 {
+  transform: translateY(30px);
+  transform: translateX(50px); 
+  animation: sliding 1s ease-in 2.4s forwards;
+
+}
+
+  .row .column p1 {
+  font-weight: bolder;
+  color: #dcdcdc;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+  transform: translateY(30px);
+  animation: sliding 1s ease-in 3.8s forwards;
+}
+
+.body-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7.9rem 0rem 1.9rem 0rem;
+}
+
+     h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0rem 2.9rem 0rem;
+  color: 	#545454;
+  font-weight: 1500;
+  letter-spacing: 0.3rem;
+  transform: translateY(30px);
+  animation: sliding 1s ease-in 3s forwards;
+}
+
+.column {
+  float: 50%;
+}
+
+.row {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  grid-gap: 25px;
+  color: #111;
+  padding-bottom: 10%;
+}
+
+.container-2 {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 850px;
+}
+
+.video {
+  position: relative;
+  left: 10%;
+  margin: 5.9rem 0rem 2.9rem 0rem;
+}
+
+.box-1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.box-container {
+  max-width: 1020px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  min-height: 5vh;
+  
+  border-radius: 10px;
+  background-image: url('https://github.com/vrdfola/hosted-assets/blob/main/grey-geometric-technology-background-gear-shape-vector-abstract-graphic-design-abs-124020695.jpg?raw=true');
+  background-size: cover;
+
+}
+
+.box-body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}
+
+.box-body .box {
+  position: relative;
+  width: 250px;
+  height: 420px;
+  border-radius: 10px;
+  color: #111;
+  background: #acacac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 30px;
+  /* transform: translateY(30px);
+  animation: sliding 1s ease-in 2s forwards; */
+}
+
+.box-body .box:hover {
+  transform: translateY(-30px);
+}
+
+.box-body .box span {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  background: #acacac;
+  z-index: 2;
+}
+
+.box-body .box .content {
+  position: relative;
+  z-index: 10;
+  padding: 20px 40px;
+}
+
+.box-body .box .content h3 {
+  color: #33291d;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  position: relative;
+  bottom: 12px;
+}
+
+.box-body .box .content p {
+  font-size: 1.0em;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  line-height: 1.5;
+  transform: translateX(50px);
+  color: transparent;
+  animation: sliding 1s ease-in 3s forwards;
+}
+
+.box-body .box .content a {
+  display: inline-block;
+  font-size: 1.1em;
+  column-count: #111;
+  background: black;
+  padding: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 10px;
+  color: white;
+}
+
+.box-body .box .content a:hover {
+  transform: translateY(-10px);
+  color: #acacac;
+}
+
+/* jjjj */
+
+.stats {
+  background-image: url('https://media4.giphy.com/media/DwlFRgKo87zDW/200.gif?cid=95b2794473bccb496121e42c8f663cb54915e04146c4cc39&rid=200.gif&ct=g');
+  background-color: #acacac;
+  height: 400px;
+  width: 100%;
+  background-blend-mode: multiply;
+  padding: 0 0;
+  overflow: hidden;
+  margin: 2.125rem 5.5rem;
+}
+
+.video-player {
+  display: flex;
+  width: 100%;
+  padding-left: 25%;
+  padding-bottom: 40%;
+
+}
+
+.other-container {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  background-color: #f5f5f5;
+  border: 12px solid black;
+
+}
+
+.other-container h4 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4%;
+  padding-bottom: 4%;
+  color: black;
+  font-size: xx-large;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+}
+.other-container p {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4%;
+  padding-bottom: 4%;
+  color: #acacac;
+  font-weight: 300px;
+  letter-spacing: 1px;
+  line-height: 1.5em; 
+}
+
+
+.card-body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+
+.card {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px 80px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+ 
+}
+
+.card-image {
+  grid-area: image;
+}
+.card-text {
+  grid-area: text;
+}
+.card-stats {
+  grid-area: stats; 
+}
+
+.card-image {
+  grid-area: image;
+  background: url("https://www.hotel-online.com/wp-content/uploads/2019/11/Hospitality-insights-AI_in_recruitment.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-text {
+  grid-area: text;
+  margin: 25px;
+}
+.card-text .date {
+  color: #acacac;
+  font-size:13px;
+}
+.card-text p {
+  color: #363434;
+  font-size:13px;
+  line-height: 1.2;
+  font-size:15px;
+  font-weight: 300;
+}
+.card-text h2 {
+  margin-top:0px;
+  font-size:28px;
+}
+
+.card-stats {
+  grid-area: stats; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: #acacac;
+}
+
+.card-stats .stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: white;
+  padding:10px;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card {
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.base-body {
+  font-weight: 400;
+  font-family: Roboto,Arial,sans-serif;
+  color: #747474;
+  padding-top: 70px;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 10%;
+}
+
+.base {
+  max-width: 520px;
+  margin: 0 auto;
+  font-size: .875em;
+  text-align: center;
+  padding-bottom: 2%;
+  
+}
+
+.h1-base {
+  padding-bottom: 10%;
+  cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #555555;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+    
+}
+
+
+.btn:hover {
+  transform: translateY(-10px);
+  color: cyan;
+}
+
+.footer {
+  text-align: center;
+  font-size: small;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border-top: 1px solid #eef2f2;
+  text-align: center;
+  padding: 3em 0;
+}
+
+.p-footer {
+  font-style: italic;
+  font-size: 10px;
+}
+
+@keyframes sliding {
+
+  to {
+    transform: translateY(0);
+    transform: translateX(0);
+    color: #33291d;
+  }
+}
